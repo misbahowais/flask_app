@@ -20,7 +20,7 @@ function save(){
 
 function ajax(url,data){
     $.ajax({
-        url:"http://127.0.0.1:5000/"+url,
+        url:"/"+url,
         data:data,
         type:"POST",
         dataType: "json",
